@@ -78,6 +78,7 @@ protected $except = [
 下面以接收普通消息为例写一个例子：
 
 > 假设您的域名为 `overtrue.me` 那么请登录微信公众平台 “开发者中心” 修改 “URL（服务器配置）” 为： `http://overtrue.me/wechat`。
+  一定要关闭Laravel debug功能，否则会有一个debug js控件输出导致一直不能成功 > v <
 
 路由：
 
